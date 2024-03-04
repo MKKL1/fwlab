@@ -26,3 +26,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/comments', [CommentsController::class, 'index'])->name('comments');
 Route::get('/create', [CommentsController::class, 'create'])->name('create');
 Route::post('/create', [CommentsController::class, 'store'])->name('store');
+Route::get('/delete/{id}', [CommentsController::class, 'destroy'])->name('delete');
