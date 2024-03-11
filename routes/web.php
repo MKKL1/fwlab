@@ -27,3 +27,5 @@ Route::get('/comments', [CommentsController::class, 'index'])->name('comments');
 Route::get('/create', [CommentsController::class, 'create'])->name('create');
 Route::post('/create', [CommentsController::class, 'store'])->name('store');
 Route::get('/delete/{id}', [CommentsController::class, 'destroy'])->name('delete');
+Route::get('/edit/{id}', [CommentsController::class, 'edit'])->name('edit');
+Route::put('/update/{id}', [CommentsController::class, 'update'])->name('update');
