@@ -1,0 +1,22 @@
+{
+  "name": "express-serwer",
+  "description": "Prosta aplikacja ...",
+  "main": "zad_01.js",
+  "keywords": [
+    "express",
+    "serwer"
+  ],
+  "author": "Krystian",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node zad_01.js",
+    "dev": "nodemon zad_01.js"
+  }
+}
